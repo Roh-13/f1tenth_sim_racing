@@ -1,6 +1,4 @@
-Robot_localization
-
-## Demonstration
+## Usage
 
 ```bash
 xhost local:root
