@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info
+writing ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/entry_points.txt
+writing requirements to ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/requires.txt
+writing top-level names to ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/top_level.txt
+writing manifest file '../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/autodrive_devkit/build/f1tenth_stanley_controller/build
+creating /home/autodrive_devkit/build/f1tenth_stanley_controller/build/lib
+creating /home/autodrive_devkit/build/f1tenth_stanley_controller/build/lib/f1tenth_stanley_controller
+copying f1tenth_stanley_controller/__init__.py -> /home/autodrive_devkit/build/f1tenth_stanley_controller/build/lib/f1tenth_stanley_controller
+copying f1tenth_stanley_controller/controller_node.py -> /home/autodrive_devkit/build/f1tenth_stanley_controller/build/lib/f1tenth_stanley_controller
+copying f1tenth_stanley_controller/get_waypoints.py -> /home/autodrive_devkit/build/f1tenth_stanley_controller/build/lib/f1tenth_stanley_controller
+copying f1tenth_stanley_controller/wheel_odom_node.py -> /home/autodrive_devkit/build/f1tenth_stanley_controller/build/lib/f1tenth_stanley_controller
+running install
+running install_lib
+creating /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller
+copying /home/autodrive_devkit/build/f1tenth_stanley_controller/build/lib/f1tenth_stanley_controller/__init__.py -> /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller
+copying /home/autodrive_devkit/build/f1tenth_stanley_controller/build/lib/f1tenth_stanley_controller/wheel_odom_node.py -> /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller
+copying /home/autodrive_devkit/build/f1tenth_stanley_controller/build/lib/f1tenth_stanley_controller/controller_node.py -> /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller
+copying /home/autodrive_devkit/build/f1tenth_stanley_controller/build/lib/f1tenth_stanley_controller/get_waypoints.py -> /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller
+byte-compiling /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller/wheel_odom_node.py to wheel_odom_node.cpython-310.pyc
+byte-compiling /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller/controller_node.py to controller_node.cpython-310.pyc
+byte-compiling /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller/get_waypoints.py to get_waypoints.cpython-310.pyc
+running install_data
+creating /home/autodrive_devkit/install/f1tenth_stanley_controller/share/ament_index
+creating /home/autodrive_devkit/install/f1tenth_stanley_controller/share/ament_index/resource_index
+creating /home/autodrive_devkit/install/f1tenth_stanley_controller/share/ament_index/resource_index/packages
+copying resource/f1tenth_stanley_controller -> /home/autodrive_devkit/install/f1tenth_stanley_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller
+creating /home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/launch
+copying launch/controller_launch.py -> /home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/launch
+running install_egg_info
+Copying ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info to /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller_node script to /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/f1tenth_stanley_controller
+Installing wheel_odom_node script to /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/f1tenth_stanley_controller
+writing list of installed files to '/home/autodrive_devkit/build/f1tenth_stanley_controller/install.log'

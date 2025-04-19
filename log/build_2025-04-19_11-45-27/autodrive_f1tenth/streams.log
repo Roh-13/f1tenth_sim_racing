@@ -1,0 +1,51 @@
+[0.526s] Invoking command in '/home/autodrive_devkit/src/autodrive_devkit': PYTHONPATH=/home/autodrive_devkit/build/autodrive_f1tenth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autodrive_f1tenth build --build-base /home/autodrive_devkit/build/autodrive_f1tenth/build install --record /home/autodrive_devkit/build/autodrive_f1tenth/install.log --install-scripts $base/lib/autodrive_f1tenth --single-version-externally-managed install_data
+[0.647s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.648s]   warnings.warn(
+[0.652s] running egg_info
+[0.652s] creating ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info
+[0.652s] writing ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/PKG-INFO
+[0.653s] writing dependency_links to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/dependency_links.txt
+[0.653s] writing entry points to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/entry_points.txt
+[0.653s] writing requirements to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/requires.txt
+[0.653s] writing top-level names to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/top_level.txt
+[0.653s] writing manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'
+[0.653s] reading manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'
+[0.654s] writing manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'
+[0.654s] running build
+[0.654s] running build_py
+[0.654s] creating /home/autodrive_devkit/build/autodrive_f1tenth/build
+[0.654s] creating /home/autodrive_devkit/build/autodrive_f1tenth/build/lib
+[0.654s] creating /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth
+[0.654s] copying autodrive_f1tenth/__init__.py -> /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth
+[0.661s] copying autodrive_f1tenth/autodrive_bridge.py -> /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth
+[0.662s] copying autodrive_f1tenth/config.py -> /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth
+[0.662s] copying autodrive_f1tenth/teleop_keyboard.py -> /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth
+[0.663s] running install
+[0.663s] running install_lib
+[0.663s] creating /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth
+[0.663s] copying /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/__init__.py -> /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth
+[0.663s] copying /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/autodrive_bridge.py -> /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth
+[0.664s] copying /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/config.py -> /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth
+[0.664s] copying /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/teleop_keyboard.py -> /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth
+[0.664s] byte-compiling /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth/__init__.py to __init__.cpython-310.pyc
+[0.664s] byte-compiling /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth/autodrive_bridge.py to autodrive_bridge.cpython-310.pyc
+[0.666s] byte-compiling /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth/config.py to config.cpython-310.pyc
+[0.666s] byte-compiling /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[0.667s] running install_data
+[0.667s] creating /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index
+[0.667s] creating /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index/resource_index
+[0.667s] creating /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index/resource_index/packages
+[0.667s] copying resource/autodrive_f1tenth -> /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index/resource_index/packages
+[0.667s] copying package.xml -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth
+[0.667s] creating /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch
+[0.667s] copying launch/simulator_bringup_rviz.launch.py -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch
+[0.667s] copying launch/simulator_bringup_headless.launch.py -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch
+[0.667s] creating /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/rviz
+[0.667s] copying rviz/simulator.rviz -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/rviz
+[0.667s] running install_egg_info
+[0.668s] Copying ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info to /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth-0.1.0-py3.10.egg-info
+[0.669s] running install_scripts
+[0.681s] Installing autodrive_bridge script to /home/autodrive_devkit/install/autodrive_f1tenth/lib/autodrive_f1tenth
+[0.681s] Installing teleop_keyboard script to /home/autodrive_devkit/install/autodrive_f1tenth/lib/autodrive_f1tenth
+[0.681s] writing list of installed files to '/home/autodrive_devkit/build/autodrive_f1tenth/install.log'
+[0.707s] Invoked command in '/home/autodrive_devkit/src/autodrive_devkit' returned '0': PYTHONPATH=/home/autodrive_devkit/build/autodrive_f1tenth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autodrive_f1tenth build --build-base /home/autodrive_devkit/build/autodrive_f1tenth/build install --record /home/autodrive_devkit/build/autodrive_f1tenth/install.log --install-scripts $base/lib/autodrive_f1tenth --single-version-externally-managed install_data

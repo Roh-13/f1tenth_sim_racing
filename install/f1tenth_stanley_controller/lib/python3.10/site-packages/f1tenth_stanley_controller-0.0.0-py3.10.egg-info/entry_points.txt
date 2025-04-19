@@ -1,0 +1,4 @@
+[console_scripts]
+controller_node = f1tenth_stanley_controller.controller_node:main
+wheel_odom_node = f1tenth_stanley_controller.wheel_odom_node:main
+
