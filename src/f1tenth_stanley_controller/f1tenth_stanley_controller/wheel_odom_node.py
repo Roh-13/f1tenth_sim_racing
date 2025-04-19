@@ -136,7 +136,7 @@ class WheelOdomNode(Node):
         odom_msg.twist.twist.angular.z = self.imu_data["angular_velocity"]
         
         # Covariance matrix (adjust values based on your system's uncertainty)
-        odom_msg.pose.covariance = [
+        odom_msg.twist.covariance = [
             0.01, 0.0, 0.0, 0.0, 0.0, 0.0,
             0.0, 0.01, 0.0, 0.0, 0.0, 0.0,
             0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
